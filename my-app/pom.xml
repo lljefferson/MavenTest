@@ -16,36 +16,3 @@
     </dependency>
   </dependencies>
 </project>
-<repositories>
-    <repository>
-        <id>central</id>
-        <url>http://192.168.33.40:8081/artifactory/artifactory/libs-release</url>
-        <snapshots>
-            <enabled>false</enabled>
-        </snapshots>
-    </repository>
-    <repository>
-        <id>snapshots</id>
-        <url>http://192.168.33.40:8081/artifactory/artifactory/libs-snapshot</url>
-        <releases>
-            <enabled>false</enabled>
-        </releases>
-    </repository>
-</repositories>
-<pluginRepositories>
-    <pluginRepository>
-        <id>central</id>
-        <url>http://192.168.33.40:8081/artifactory/artifactory/plugins-release</url>
-        <snapshots>
-            <enabled>false</enabled>
-        </snapshots>
-    </pluginRepository>
-    <pluginRepository>
-        <id>snapshots</id>
-        <url>http://192.168.33.40:8081/artifactory/artifactory/plugins-snapshot</url>
-        <releases>
-            <enabled>false</enabled>
-        </releases>
-    </pluginRepository>
-</pluginRepositories>
-
